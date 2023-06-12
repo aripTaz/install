@@ -210,7 +210,7 @@ else
     fi
 clear
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-echo -e "║ \E[37;1;36m          ★ 𝐁𝐑𝐈𝐍𝐆𝐀𝐒 𝐓𝐔𝐍𝐍𝐄𝐋 ★            \E[0m"
+echo -e "║ \E[37;1;36m          SETANVPN                \E[0m"
 echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat
 echo -e "║ [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]" | lolcat
 echo -e "║\e[1;33m╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕\033[0m"
@@ -223,10 +223,6 @@ echo -e "║\e[1;33m╘━━━━━━━━━━━━━━━━━━━
 echo -e "║${GREEN}  \033[0m ${BOLD}${GREEN}SSH      VMESS       VLESS      TROJAN$NC  $COLOR1" 
 echo -e "║${GREEN}  \033[0m ${Blue} $ssh1        $vma           $vla          $tra                  $NC" 
 echo -e "╠═════════════════════════════════════════════╣" | lolcat
-echo -e "║           ┌────────────────────────┐" | lolcat
-echo -e "║           │𝐂𝐥𝐢𝐞𝐧𝐭 :$NC\033[1;36m$Name ${NC}"
-echo -e "║           │Exp    :$NC\033[1;36m$Exp ${NC}"
-echo -e "║           └────────────────────────┘" | lolcat
 echo -e "╠═════════════════════════════════════════════╣" | lolcat
 echo -e "║\e[1;37m[•1]\e[0m \e[1;33mꜱꜱʜ\033[0m"        
 echo -e "║\e[1;37m[•2]\e[0m \e[1;33mᴠᴍᴇꜱꜱ\033[0m"          
