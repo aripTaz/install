@@ -62,7 +62,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${tyblue}NOTES${NC} ] 2. apt upgrade -y"
   echo -e "[ ${tyblue}NOTES${NC} ] 3. apt dist-upgrade -y"
   echo -e "[ ${tyblue}NOTES${NC} ] 4. reboot"
-  echo "kata bringas tunggu............."
+  echo "tunggu............."
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] After rebooting"
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
@@ -137,19 +137,19 @@ read -rp "Input ur domain : " -e pp
     
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      Install SSH / WS               $NC"
+echo -e "$green    Install SSH / WS By SetanVPN    $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 1
 clear
-wget https://raw.githubusercontent.com/Bringas-tunnel/v4/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/aripTaz/install/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Install XRAY              $NC"
+echo -e "$green      Install XRAY By SetanVPN      $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 1
 clear
 wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/Bringas-tunnel/v4/main/Sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/aripTaz/install/main/Sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 #Instal slowdns
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -166,7 +166,7 @@ echo -e "$green          Install UDP              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Bringas-tunnel/v4/main/udp/udp.sh && bash udp.sh
+wget https://raw.githubusercontent.com/aripTaz/install/v4/main/udp/udp.sh && bash udp.sh
 clear
 
 cat> /root/.profile << END
